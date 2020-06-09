@@ -1,3 +1,2 @@
 # panda_voice_assistant
-commentory and youtube open
-automatically handle your browser game
+By running these files in your pc you can easily run your own jarvis aka panda-voice assistant
