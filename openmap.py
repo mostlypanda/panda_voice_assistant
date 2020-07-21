@@ -1,4 +1,4 @@
-# File Name -- Map.py 
+# File Name -- Map.py Used to render you the location page of entered location
 import sys, webbrowser 
 if len(sys.argv) > 1:	 # Argument passed 
 	map_string = ' '.join(sys.argv[1:]) 
