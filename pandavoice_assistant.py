@@ -1,5 +1,5 @@
 
-#coden for direct play of any music on youtube search anything on youtube and also for date time and email too
+#code for direct play of any music on youtube search anything on youtube and also for date time and email too
 
 import pyttsx3 #pip install pyttsx3
 import speech_recognition as sr #pip install speechRecognition
@@ -117,21 +117,7 @@ if __name__ == "__main__":
             # webbrowser.open(url, new = 1)
             webbrowser.open_new(url)
 
-            
-            #query1 = takeCommand().lower()
-            #search=browser.find_element_by_id('search')
-            #search.send_keys(query1) 
-            #sbutton=browser.find_element_by_id('search-icon-legacy')
-            # browser.find_elements_by_xpath()
-            #sbutton.click()
-            #video=browser.find_elements_by_partial_link_text('')
-            #print(video)
-            #speak('which number you want to listen')
-            #print(video.__len__())
-            #query2 = takeCommand().lower()
-            #video[19].click()
-            #if(query2=='1'):
-             #   video[0].click()
+   
         elif 'open google' in query:
             webbrowser.open("google.com")
 
@@ -149,23 +135,17 @@ if __name__ == "__main__":
             strTime = datetime.datetime.now().strftime("%H:%M:%S")    
             speak(f"Sir, the time is {strTime}")
 
-        elif 'open code' in query:
-            codePath = "C:\\Users\\Haris\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
-            os.startfile(codePath)
-
-        elif 'email to mohinesh' in query:
+        elif 'email to my friend' in query:
             try:
                 speak("What should I say?")
                 content = takeCommand()
-                to ="mohinrshsharma9999@gmail.com"    
+                speak("to whom I have to sent the email")
+                to=takeCommand()
                 sendEmail(to, content)
                 speak("Email has been sent!")
             except Exception as e:
                 print(e)
-                speak("Sorry my friend harry bhai. I am not able to send this email")
-            
-        elif 'make me happy' in query:
-             speak(" sarthak aayu, you are so beautiful")
+                speak("Sorry my friend. I am not able to send this email")
     
 
         elif 'play some music' in query:
