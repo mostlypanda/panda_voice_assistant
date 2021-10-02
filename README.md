@@ -39,5 +39,5 @@ There are also many files uploaded which have very amazing features-
 
 1. Like open any map location by just writing the place in the terminal you can also change it to speech by just using copying line of code from panda_voice_assistant.
 
-2. Their is a file for playing the browser game too, the game of running the dianasaur when you are offline it will play by itself.
+2. Their is a file for playing the browser game too, the game of running the dianasaur when you are offline it will play by itself and just enjoy it.
 
